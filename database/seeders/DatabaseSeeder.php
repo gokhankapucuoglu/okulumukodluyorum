@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Database\Seeders\RoleSeeder;
 use Database\Seeders\UserSeeder;
+use Database\Seeders\SchoolSeeder;
 use Database\Seeders\PermissionSeeder;
 use Database\Seeders\SyncSuperAdminPermissionsSeeder;
 
@@ -19,6 +20,7 @@ class DatabaseSeeder extends Seeder
             //RoleSeeder::class,
             //PermissionSeeder::class,
             UserSeeder::class,
+            SchoolSeeder::class,
         ]);
     }
 }

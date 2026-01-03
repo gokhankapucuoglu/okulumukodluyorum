@@ -18,10 +18,11 @@ return new class extends Migration
             $table->string('institution_code')->unique();
             $table->string('name');
             $table->string('type');
-            $table->string('education_type')->nullable();
+            $table->string('level');
+            $table->string('program')->nullable();
+            $table->string('education_time')->nullable();
             $table->time('start_time')->nullable();
             $table->time('end_time')->nullable();
-            $table->string('program')->nullable();
             $table->string('address')->nullable();
             $table->string('phone')->nullable();
             $table->string('email')->nullable();
